@@ -18,13 +18,24 @@
         <!-- Right Nav Section -->
         <ul class="right">
 
+          
+
+          <!--<li><a href="getstarted" class="login">Get Started</a></li>-->
+
           <li class="divider"></li>
 
-          <li><a href="getstarted" class="login">Get Started</a></li>
+          <!--<li><a href="/admins/sign_in" class="getstarted">Login</a></li>-->
 
-          <li class="divider"></li>
+          <% if admin_signed_in? %>
+      
+            <li><%= link_to "Sign out", destroy_admin_session_path, :method => :delete, :class => "login" %></li>
+            <!--<li><%#= link_to 'Edit account', edit_admin_registration_path, :class => "login" %></li>-->
 
-          <li><a href="#" class="getstarted">Login</a></li>
+          <% else %>
+            <%#= link_to "Sign up", new_user_registration_path %>
+            <li><%= link_to "Sign in", new_admin_session_path, :class => "login" %></li>
+
+          <% end %>
 
           <li class="divider"></li>
 

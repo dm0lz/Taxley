@@ -1,10 +1,12 @@
 Taxley::Application.routes.draw do
 
+  devise_for :admins
   get "home/index"
   #get "home/getstarted"
   match "/getstarted" => "home#getstarted", via: [:get, :post], as: "home/getstarted"
 
   match "home/create" => "home#create", via: :post
+  match "/betausers" => "home#betausers", via: :get, as: "home/betausers"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
