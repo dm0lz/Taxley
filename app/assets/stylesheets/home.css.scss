@@ -1,0 +1,73 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face{ 
+	font-family: Corbert; 
+	src: url('Corbert-Regular.otf'); 
+} 
+
+.space{
+	height: 50px;
+}
+.firsttext{
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #6d6e70;
+}
+article.faq{
+	h1{
+		color: #f6921e;
+	}
+}
+
+.getstartedpage{
+	text-align: center;
+	font-family: Comics, Corbert , Helvetica, Arial, sans-serif;
+	h1{
+		color: #f6921e;
+	}
+}
+
+.navbarWrapper{
+	//height: 65px;
+}
+.getstartbutton{
+	text-align: center;
+}
+
+.header {
+	h1{
+		text-align: center;
+		color: #f6921e;
+		//font-family: Comics, Corbert , Helvetica, Arial, sans-serif;
+	}
+	h4{
+		text-align: center;
+		color: #6d6e70;
+	}
+	a{
+		text-align: center;
+	}
+}
+.notice{
+	text-align: center;
+	margin-top: 20px;
+	color: #67babe;
+}
+
+nav.navbar{
+	font-family: Corbert , Helvetica, Arial, sans-serif;
+	.getstarted{
+		color: #67babe;
+		&:hover{
+			color: #67babe;
+		}
+	}
+	.login{
+		color: #f6921e;
+		&:hover{
+			color: #f6921e;
+		}
+	}
+}

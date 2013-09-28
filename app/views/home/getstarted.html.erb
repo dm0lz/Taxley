@@ -1,0 +1,31 @@
+
+<div class="space"></div>
+
+
+<section class="row">
+	<article class="small-12 columns getstartedpage">
+		<h1>Taxley is in Beta</h1>
+		<h4>Please enter your email address and we will keep you updated on our product launch</h4>
+	</article>
+</section>
+
+<br/>
+
+<section class="formulaire">
+
+	<%= form_tag(:controller => "home", :action => "create") do %>
+
+		<div class="large-2 large-centered  columns">
+			<%= text_field_tag :email, nil, :autofocus => true, :placeholder => "Your email address here" %></div>
+		</div>
+		<div class="large-2 large-centered  columns">
+			<%= text_field_tag :country, nil, :placeholder => "Your country of residence" %></div>
+		</div>
+		<br/>
+		<div class="large-2 large-centered  columns">
+			<%= submit_tag("getstarted", :class => "button") %>
+		</div>
+
+	<% end %>
+
+</section>
