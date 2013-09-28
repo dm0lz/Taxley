@@ -6,8 +6,10 @@
 	font-family: Corbert; 
 	src: url('Corbert-Regular.otf'); 
 } 
-.createbouton{
-	//text-align: center;
+
+span.menu{
+	color: #f6921e;
+	font-family: Helvetica;
 }
 .space{
 	height: 50px;
@@ -31,9 +33,6 @@ article.faq{
 	}
 }
 
-.navbarWrapper{
-	//height: 65px;
-}
 .getstartbutton{
 	text-align: center;
 }

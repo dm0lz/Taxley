@@ -1258,6 +1258,7 @@ $primary-color: #f6921e;
 
 // $topbar-bg-color: #111;
 // $topbar-bg: $topbar-bg-color;
+//$topbar-bg: #f5f6f7 url('noise-header.png');
 $topbar-bg: #f5f6f7 url('noise-header.png');
 // Height and margin
 
@@ -1294,6 +1295,7 @@ $topbar-height: 50px;
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
 // $topbar-link-bg-hover: darken($topbar-bg-color, 3%);
 $topbar-link-bg-hover: #f5f6f7 url('noise-header.png');
+//$topbar-link-bg-hover: green url('noise-header.png');
 // $topbar-link-bg-active: darken($topbar-bg-color, 3%);
 
 // $topbar-dropdown-label-color: #555;
